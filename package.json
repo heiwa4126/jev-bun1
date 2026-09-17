@@ -9,6 +9,7 @@
 		"noul1": "bun run src/noul1.ts",
 		"noul2": "bun run src/noul2.ts",
 		"noul3": "bun run src/noul3.ts",
+		"j-noul1": "bun run src/j-noul1.ts",
 		"format": "oxfmt",
 		"lint": "oxlint .",
 		"lint-tsc": "tsc --noEmit",
