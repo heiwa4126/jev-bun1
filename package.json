@@ -1,23 +1,23 @@
 {
-  "name": "jev-bun1",
-  "private": true,
-  "type": "module",
-  "module": "src/index.ts",
-  "scripts": {
-    "start": "bun run src/index.ts",
-    "ex0": "bun run src/ex0.ts",
-    "format": "oxfmt",
-    "lint": "oxlint .",
-    "lint-tsc": "tsc --noEmit",
-    "check": "oxlint . && oxfmt"
-  },
-  "dependencies": {
-    "@typesafe-ai/sdk": "^0.6.0"
-  },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^7"
-  }
+	"name": "jev-bun1",
+	"private": true,
+	"type": "module",
+	"module": "src/index.ts",
+	"scripts": {
+		"start": "bun run src/index.ts",
+		"ex0": "bun run src/ex0.ts",
+		"format": "oxfmt",
+		"lint": "oxlint .",
+		"lint-tsc": "tsc --noEmit",
+		"check": "oxlint . && oxfmt"
+	},
+	"dependencies": {
+		"@typesafe-ai/sdk": "^0.6.0"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^7"
+	}
 }

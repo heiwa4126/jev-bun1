@@ -1,6 +1,9 @@
 # jev-bun1
 
-TypeSafe の Jev を TypeScript API で使ってみる。
+[TypeSafe の Jev](https://docs.typesafe.ai/introduction)
+を
+[TypeScript SDK](https://docs.typesafe.ai/sdk/javascript)
+で使ってみる最初の 1 歩。
 
 ## 開発
 
