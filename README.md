@@ -31,5 +31,14 @@ $ bun run ex0
 billing
 ```
 
+### さらなるサンプル
+
+```sh
+# Playground の Noul のサンプル「ホットドックはサンドイッチか?」を API で
+bun run noul1
+bun run noul2 # placefolder 使用
+bun run noul3 # 並列問い合わせ
+```
+
 This project was created using `bun init` in bun v1.4.2.
 [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.

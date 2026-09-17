@@ -6,6 +6,9 @@
 	"scripts": {
 		"start": "bun run src/index.ts",
 		"ex0": "bun run src/ex0.ts",
+		"noul1": "bun run src/noul1.ts",
+		"noul2": "bun run src/noul2.ts",
+		"noul3": "bun run src/noul3.ts",
 		"format": "oxfmt",
 		"lint": "oxlint .",
 		"lint-tsc": "tsc --noEmit",
