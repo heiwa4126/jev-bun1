@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.cmd text eol=crlf working-tree-encoding=SHIFT-JIS
+*.bat text eol=crlf working-tree-encoding=SHIFT-JIS
+*.reg text eol=crlf working-tree-encoding=UTF-16LE-BOM
+*.lockb binary diff=lockb
+
+*.ipynb filter=nbstripout
+*.zpln filter=nbstripout
+*.ipynb	diff=jupyternotebook
+*.ipynb	merge=jupyternotebook
+
+*.ipynb diff=ipynb
