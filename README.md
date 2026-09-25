@@ -40,6 +40,9 @@ bun run noul2 # placefolder 使用
 bun run noul3 # 並列問い合わせ
 # noul1 を改造して、日本語のテスト「バナナはおやつに入りますか?」
 bun run j-noul1 # おやつ判定されたけど、ちゃんと理解してるかわからん...
+
+# 複数タイプの問い合わせをいっぺんに
+bun run multi1
 ```
 
 This project was created using `bun init` in bun v1.4.2.
